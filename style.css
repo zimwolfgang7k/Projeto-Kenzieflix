@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans';
+    background-color: #121214;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 42px;
+}
+h1, p, figcaption {
+    color: #9C9C9C;
+    text-align: center;
+}
+h3 {
+    color: white;
+}
+.imagens-perfil {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 42px 0px;
+}
+.perfil {
+    width: 160px;
+    height: 160px;
+}
+.perfil figure img {  
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 2px solid white;
+}
+footer {
+    padding-top: 300px;
+    max-width: 205px;
+    border-radius: 10%;
+}
+.gerenciar-perfis {
+    margin: 0 auto;
+    align-items: center;
+    cursor: pointer;
+}
+h3 {
+    border: 1.5px solid white;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+perfil figure figcaption {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+.perfil figure img:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+h3:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
+
+
+
+
